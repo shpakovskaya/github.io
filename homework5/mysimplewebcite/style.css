@@ -1,0 +1,82 @@
+/* заголовок страницы */
+header {
+  background-color: brown;
+  color: azure;
+  font-weight: 200;
+  font-size: xx-large;
+  text-align: center;
+  margin: 0;
+}
+div {
+  margin: 26px;
+  /* background-image: url("./sunset.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: 3000px 300px; */
+}
+img {
+  width: 100%;
+}
+p {
+  font-size: 18px;
+}
+.letter {
+  font-style: italic;
+}
+.bolt {
+  font-weight: bold;
+}
+.letter-blu {
+  font-style: italic;
+  color: blue;
+  font-weight: bold;
+}
+.blu {
+  color: blue;
+}
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box1 {
+  box-sizing: border-box;
+  width: 10%;
+  border-style: dashed;
+  margin-right: 2px;
+}
+.box2 {
+  box-sizing: border-box;
+  width: 10%;
+  border-style: dashed;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+.box3 {
+  box-sizing: border-box;
+  width: 10%;
+  border-style: dashed;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+.box4 {
+  box-sizing: border-box;
+  width: 10%;
+  border-style: dashed;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+.box5 {
+  box-sizing: border-box;
+  width: 10%;
+  border-style: dashed;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
