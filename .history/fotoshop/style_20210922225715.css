@@ -43,13 +43,8 @@ hr {
 }
 .social__item {
   margin: 30px;
+  color: #fefbfc;
 }
 .footer__wrapper {
   color: #fefbfc;
-  display: flex;
-  justify-content: center;
-  margin-top: 86px;
-}
-.color-blue {
-  color: #19c8fa;
 }
