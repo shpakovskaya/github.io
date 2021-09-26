@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #11364e;
+  color: #ffffff;
+}
+
+.conteiner {
+  max-width: 1440px;
+  min-width: 479px;
+  position: relative;
+}
+.header {
+  box-sizing: border-box;
+  width: 185px;
+  height: 52px;
+  position: absolute;
+  left: 43.61%;
+  top: 9.72%;
+  right: 43.54%;
+  display: flex;
+  justify-content: center;
+}
+
+.c-header__wrapper {
+  top: 140px;
+  font-family: "Stick No Bills", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.main {
+  box-sizing: border-box;
+  width: 370px;
+  height: 120px;
+  position: absolute;
+  left: 37.15%;
+  top: 222px;
+  right: 36.38%;
+  bottom: 187px;
+}
+.main__form {
+  width: 370px;
+  height: 18px;
+  font-family: "Stick No Bills", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 18px;
+  position: relative;
+}
+
+.c_main__form {
+  width: 370px;
+  height: 311px;
+}
+
+.fieldset {
+  position: relative;
+}
+[type="text"] {
+  overflow: scroll;
+}
+
+.footer__wrapper {
+  height: 47px;
+  background-color: #13253a;
+  margin-top: 770px;
+  text-align: center;
+  padding-top: 10px;
+}
+.copy {
+  background-color: #13253a;
+}
