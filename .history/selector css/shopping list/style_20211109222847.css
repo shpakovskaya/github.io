@@ -34,7 +34,7 @@
 
 .list__wrapper {
   /* box-sizing: border-box; */
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   width: 100%;
   background-color: #88839e;
@@ -124,15 +124,13 @@ input {
   background-color: #3b3f45;
   display: flex;
   justify-content: center;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .bon__wrapper {
-  max-width: 800px;
-  width: 100%;
-  margin: 0;
+  width: 800px;
   /* box-sizing: border-box; */
   background: #4a4f56;
   color: #eb7e7f;
-  padding: 20px 20px 40px 20px;
+  padding: 20px 0 20px 0;
 }
