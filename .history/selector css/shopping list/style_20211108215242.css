@@ -74,12 +74,12 @@
   font-size: 16px;
 }
 
-/* .e-pickles::before {
+.e-pickles::before {
   content: initial;
   padding-right: 7px;
-} */
+}
 
-input[type="checkbox"]:checked + span {
+input[checkbox]:checked + span {
   text-decoration: line-through;
 }
 
@@ -97,25 +97,5 @@ input[type="checkbox"]:checked + span {
   background-color: #eb7e7f;
 }
 
-#pickles + span {
-  display: flex;
-  justify-content: start;
-  text-align: left;
-}
-
-/* Button */
-.submit {
-  padding-top: 30px;
-  background-color: #3b3f45;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 60px;
-}
-
-.bon__wrapper {
-  width: 800px;
-  /* box-sizing: border-box; */
-  background: #4a4f56;
-  color: #eb7e7f;
-  padding: 20px 0 20px 0;
+#pickles > span::before {
 }

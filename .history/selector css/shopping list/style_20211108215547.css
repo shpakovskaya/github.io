@@ -38,9 +38,9 @@
   background-color: #88839e;
 }
 
-/* .list__wrapper label {
+.list__wrapper label {
   white-space: nowrap;
-} */
+}
 
 .c-list__wrapper {
   /* margin-bottom: 20%; */
@@ -79,7 +79,7 @@
   padding-right: 7px;
 } */
 
-input[type="checkbox"]:checked + span {
+input[checkbox]:checked + span {
   text-decoration: line-through;
 }
 
@@ -97,10 +97,7 @@ input[type="checkbox"]:checked + span {
   background-color: #eb7e7f;
 }
 
-#pickles + span {
-  display: flex;
-  justify-content: start;
-  text-align: left;
+#pickles > span::before {
 }
 
 /* Button */

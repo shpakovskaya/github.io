@@ -79,7 +79,7 @@
   padding-right: 7px;
 } */
 
-input[type="checkbox"]:checked + span {
+input[checkbox]:checked + span {
   text-decoration: line-through;
 }
 

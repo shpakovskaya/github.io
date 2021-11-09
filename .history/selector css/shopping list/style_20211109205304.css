@@ -79,7 +79,7 @@
   padding-right: 7px;
 } */
 
-input[type="checkbox"]:checked + span {
+input[checkbox]:checked + span {
   text-decoration: line-through;
 }
 
@@ -100,7 +100,7 @@ input[type="checkbox"]:checked + span {
 #pickles + span {
   display: flex;
   justify-content: start;
-  text-align: left;
+  text-align: match-parent;
 }
 
 /* Button */
