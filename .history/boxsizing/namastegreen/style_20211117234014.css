@@ -7,13 +7,8 @@
 .conteiner {
   max-width: 1280px;
   max-height: 976px;
-  position: relative;
 }
-.header__wrapper {
-  position: absolute;
-  margin-top: 0px;
-  text-align: center;
-}
+
 .e-wrapper__anchor {
   width: 64px;
   height: 64px;
