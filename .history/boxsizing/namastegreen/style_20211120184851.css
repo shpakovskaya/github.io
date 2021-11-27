@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  max-width: 1280px;
+  max-height: 976px;
+  position: relative;
+}
+
+/* Header */
+.header {
+  position: absolute;
+  top: 0px;
+}
+
+.header__wrapper {
+  margin-top: 0px;
+  text-align: center;
+}
+.e-header__one {
+  font: 12px;
+  font-family: montss;
+}
+
+.e-wrapper__anchor {
+  width: 64px;
+  height: 64px;
+}
+
+#Anchor:hover {
+  fill: blue;
+}
+
+#Eyeglasses:hover {
+  fill: blue;
+}
+#Monitor:hover {
+  fill: blue;
+}
+
+#Diamond:hover {
+  fill: blue;
+}

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  max-width: 1280px;
+  max-height: 976px;
+  position: relative;
+}
+
+/* Header */
+.header {
+  position: absolute;
+  top: 0px;
+}
+
+.header__wrapper {
+  margin-top: 140px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.e-header__one {
+  font-size: 12px;
+  font-family: Montserrat bold;
+  letter-spacing: 1px;
+}
+
+.e-header__two {
+  font-size: 48px;
+  font-family: Montserrat regular;
+}
+.e-wrapper__anchor {
+  width: 64px;
+  height: 64px;
+}
+
+#Anchor:hover {
+  fill: blue;
+}
+
+#Eyeglasses:hover {
+  fill: blue;
+}
+#Monitor:hover {
+  fill: blue;
+}
+
+#Diamond:hover {
+  fill: blue;
+}
