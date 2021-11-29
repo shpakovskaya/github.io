@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner {
+  width: 100%;
+  max-width: 832px;
+  max-height: 547px;
+  position: relative;
+  top: 57px;
+  left: 433px;
+  border: 16px solid #2b81ac;
+  background-color: #3399cc;
+}
+
+.items__wrapper {
+  position: absolute;
+  width: 539px;
+  height: 331px;
+  /* left: 146px;
+  top: 108px; */
+
+  border: 3px solid #ffffff;
+}

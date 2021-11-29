@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner {
+  /* width: 100%; */
+  max-width: 832px;
+  max-height: 547px;
+  position: relative;
+  top: -57px;
+  left: -433px;
+  border: 16px, solid, #2b81ac;
+}
